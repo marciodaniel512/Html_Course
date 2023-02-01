@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'iDroid, sans-serif';
+    src:url('fontes/idroid.otf')
+}
+/*
+    Desafio 10
+    Comecei no dia 22/01 as 05:14AM
+    Terminei maior parte do código HTML5 as 06:12AM
+*/
+body{
+    background-color: #83e1ad;
+    margin-top: 0px;
+    text-align: justify;
+    text-indent: 75px;
+    position: absolute;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: -30px;
+}
+
+ul{
+    list-style-type: '\2714\0020\0020';
+}
+
+a{
+    color: #2fa866;
+    text-decoration: none;
+}
+
+header{
+    background-color: #2fa866;
+    text-align: center;
+    color: white;
+    margin-top: -32px;
+}
+
+header > h1{
+    padding: 12px;
+}
+
+div#interface > header > h1{
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+}
+
+div#interface > header > p{
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+}
+
+div#interface{
+    position: relative;
+    background-color: white;
+    margin: 0px 100px 0px 100px;
+    padding: 0px;
+}
+
+div#interface > h1, h2{
+    font-family: 'iDroid, sans-serif';
+    color: green;
+}
+
+div#interface > h2.degrade{
+    background-image: linear-gradient(to right, #c5ebd6, white);
+} 
+
+div#interface > p{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+div#interface  > p > em{
+    color: green;
+    text-decoration: none;
+}
+
+div#interface > header > nav > ul > li{
+    display: inline;
+    margin-left: 1px;
+}
+
+div#interface > header > nav{
+    background-color: #063d1e;
+}
+
+div#interface > header > nav > ul > li > a{
+    color: white;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    right: 100px;
+}
+
+div#interface > picture > source, img{
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+div#interface > iframe{
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+div#aprendermais{
+    position: relative;
+    background-color:aquamarine;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.603);
+    margin: 15px;
+}
+ 
+div#aprendermais > ul > span > li#direita{
+    text-decoration: underline;
+}
+
+div#aprendermais > ul > span#direita{
+    position: relative;
+    left: 400px;
+    top: -125px;
+}
+
+div#aprendermais > h3{
+    background-color: green;
+    border-radius: 7px 7px 0px 0px;
+}
+
+div#aprendermais > p{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+div#aprendermais > p#especial{
+    padding-bottom: 30px;
+}
+
+div#aprendermais > p#cima{
+    margin-top: -130px;
+}
+
+footer{
+    background-color:#063d1e;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #3ddc84;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+footer > p > abbr, em{
+    padding-top: 10px;
+    color: white;
+}
